@@ -15,6 +15,10 @@ The pulse object contains infomation tied to the laser light itself, such as int
 
 The fiber object contains infomation tied to the media that the pulse is interacting with, such as the linear and nonlinear responses.
 
+# PyNLO Installation
+
+PyNLO is now no longer actively maintained. Python 3.11 updated numpy as scipy to remove certain functions that were called in the program. A new version of PyNLO is provided in this repo to be installed alongside spym.
+
 # Common Functions
 
 A list of important package functions are:
