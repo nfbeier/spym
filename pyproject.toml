@@ -1,0 +1,22 @@
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spym"
+version = "0.1"
+requires-python = ">=3.8"
+dependencies = [
+    'numpy',
+    'matplotlib',
+    'scipy',
+    'pynlo',
+	'pandas',
+]
+authors = [
+  { name="m-stanfield"},
+]
+description = "A package to help analysis common ultrafast optics stuff."
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/m-stanfield/spym"
