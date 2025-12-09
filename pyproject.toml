@@ -20,10 +20,3 @@ readme = "README.md"
 
 [project.urls]
 Homepage = "https://github.com/m-stanfield/spym"
-
-[tool.setuptools]
-include-package-data = false
-
-[tool.setuptools.packages.find]
-include = ["src*"]
-exclude = ["tests*", "Examples*","pynlo_edits*"]
